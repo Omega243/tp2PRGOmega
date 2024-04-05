@@ -1,4 +1,4 @@
-package mg.itu.tp2customeromega;
+package mg.itu.tp2prgomega;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;

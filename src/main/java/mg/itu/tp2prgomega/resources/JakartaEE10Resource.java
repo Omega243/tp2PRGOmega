@@ -1,4 +1,4 @@
-package mg.itu.tp2customeromega.resources;
+package mg.itu.tp2prgomega.resources;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
