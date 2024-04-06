@@ -5,8 +5,7 @@
 package mg.itu.tp2prgomega.jsf;
 
 import jakarta.inject.Named;
-import jakarta.enterprise.context.SessionScoped;
-import java.io.Serializable;
+import jakarta.enterprise.context.RequestScoped;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,8 +14,8 @@ import java.util.List;
  * @author Dina
  */
 @Named(value = "bean2")
-@SessionScoped
-public class Bean2 implements Serializable {
+@RequestScoped
+public class Bean2 {
 
     private int nombre;
 
